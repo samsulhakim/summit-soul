@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .font-display {
+        font-family: var(--ss-heading-font, "Cormorant Garamond"), Georgia, serif;
+    }
+
+    .font-body {
+        font-family: var(--ss-body-font, "DM Sans"), Arial, sans-serif;
+    }
+}
